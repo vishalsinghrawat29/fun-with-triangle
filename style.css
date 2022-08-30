@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root{
+    --background-color: #fff0e8;
+    --text-color: #021401;
+    --primary-color: #e3824d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+  }
+  
+li {
+    list-style: none;
+}
+
+/* Header */
+header{
+    padding : 1 rem;
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+header h1{
+    text-align: initial;
+    font-weight: 600;
+    padding: 0.5rem 0 0 1rem;
+    color: var(--primary-color);
+}
+
+nav{
+    text-align: right;
+    padding:  0 0 0.5rem 0;
+}
+nav a{
+    color: var(--background-color);
+    padding: 0.5rem;
+    
+}
+
+/* Main - container */
+main{
+    width: 340px;
+    margin: auto;
+    
+}
+main h1{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.formula{
+    text-align: center;
+    font-size: large;
+	width: 100%;
+	margin: 2rem auto;
+	padding: 0.5rem;
+	border: 2px solid var(--primary-color);
+}
+
+/*  Input */
+.container {
+    width: 340px;
+    margin: auto;
+}
+
+.quiz-container {
+	padding: 2rem;
+	border: 2px solid var(--primary-color);
+	border-radius: 0.5rem;
+	margin: 1rem 0;
+}
+
+.quiz-container p {
+	margin-bottom: 1rem;
+}
+
+.quiz-container label {
+	margin-right: 0.5rem;
+}
+.label-container{
+    font-size: medium;
+    color: var(--text-color);
+    display: block;
+}
+
+.input-container {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    margin:  0.5rem auto 2rem auto;
+    max-width: 340px;
+    display: block;
+}
+
+
+button{
+    background: var(--text-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+#output {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 2rem auto;
+    text-align: center;
+    display: block;
+    color: var(--primary-color);
+}
+
+.quiz-main {
+    margin: 2rem auto;
+    text-align: left;
+}
+  
+.question_container {
+    width: 100%;
+    margin: 0rem auto;
+    font-size: medium;
+    padding: 1rem 0;
+}
+  
+.question_container p {
+    margin: 1rem 0;
+}
+.question_container label {
+    margin-right: 1rem;
+}
